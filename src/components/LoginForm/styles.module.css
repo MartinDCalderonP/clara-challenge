@@ -1,0 +1,25 @@
+.loginFormContainer {
+  width: 50%;
+
+  .loginForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .loginFormField {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .errorMessage {
+    color: red;
+    margin-bottom: 1rem;
+  }
+
+  .successMessage {
+    color: green;
+    margin-bottom: 1rem;
+  }
+}
